@@ -4,7 +4,7 @@ import styles from './HeaderCartButton.module.scss'
 export const HeaderCartButton = () => {
 
   return(
-    <button className={styles.button}>
+    <button className={`${styles.button} ${styles.bump}`}>
       <span className={styles.icon}>
         <CartIcon />
       </span>
